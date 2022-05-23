@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Transport" Relationship="Self.FK__Transport__Categ__29572725" FromRole="Category" ToRole="Transport" />
+  </EntityType>
+  <EntityType Name="ListOrder">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderId" Type="Int32" Nullable="false" />
+    <Property Name="TransportId" Type="Int32" Nullable="false" />
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Order" Relationship="Self.FK__ListOrder__Order__31EC6D26" FromRole="ListOrder" ToRole="Order" />
+    <NavigationProperty Name="Transport" Relationship="Self.FK__ListOrder__Trans__30F848ED" FromRole="ListOrder" ToRole="Transport" />
+  </EntityType>
+  <EntityType Name="Manufacturer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Transport" Relationship="Self.FK__Transport__Manuf__2A4B4B5E" FromRole="Manufacturer" ToRole="Transport" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderDate" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="ListOrder" Relationship="Self.FK__ListOrder__Order__31EC6D26" FromRole="Order" ToRole="ListOrder" />
+  </EntityType>
+  <EntityType Name="Transport">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CategoryId" Type="Int32" Nullable="false" />
+    <Property Name="Speed" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="WheelDiameter" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Weight" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="EnginePower" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="ManufacturerId" Type="Int32" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <NavigationProperty Name="Category" Relationship="Self.FK__Transport__Categ__29572725" FromRole="Transport" ToRole="Category" />
+    <NavigationProperty Name="ListOrder" Relationship="Self.FK__ListOrder__Trans__30F848ED" FromRole="Transport" ToRole="ListOrder" />
+    <NavigationProperty Name="Manufacturer" Relationship="Self.FK__Transport__Manuf__2A4B4B5E" FromRole="Transport" ToRole="Manufacturer" />
+    <NavigationProperty Name="TransportAmount" Relationship="Self.FK__Transport__Trans__2C3393D0" FromRole="Transport" ToRole="TransportAmount" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Role" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TransportAmount">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="TransportId" />
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="TransportId" Type="Int32" Nullable="false" />
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Transport" Relationship="Self.FK__Transport__Trans__2C3393D0" FromRole="TransportAmount" ToRole="Transport" />
+  </EntityType>
+  <Association Name="FK__Transport__Categ__29572725">
+    <End Role="Category" Type="Self.Category" Multiplicity="1" />
+    <End Role="Transport" Type="Self.Transport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transport">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ListOrder__Order__31EC6D26">
+    <End Role="Order" Type="Self.Order" Multiplicity="1" />
+    <End Role="ListOrder" Type="Self.ListOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Order">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ListOrder">
+        <PropertyRef Name="OrderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ListOrder__Trans__30F848ED">
+    <End Role="Transport" Type="Self.Transport" Multiplicity="1" />
+    <End Role="ListOrder" Type="Self.ListOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Transport">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ListOrder">
+        <PropertyRef Name="TransportId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transport__Manuf__2A4B4B5E">
+    <End Role="Manufacturer" Type="Self.Manufacturer" Multiplicity="1" />
+    <End Role="Transport" Type="Self.Transport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Manufacturer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transport">
+        <PropertyRef Name="ManufacturerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transport__Trans__2C3393D0">
+    <End Role="Transport" Type="Self.Transport" Multiplicity="1" />
+    <End Role="TransportAmount" Type="Self.TransportAmount" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Transport">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TransportAmount">
+        <PropertyRef Name="TransportId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Transport" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Category" EntityType="Self.Category" />
+    <EntitySet Name="ListOrder" EntityType="Self.ListOrder" />
+    <EntitySet Name="Manufacturer" EntityType="Self.Manufacturer" />
+    <EntitySet Name="Order" EntityType="Self.Order" />
+    <EntitySet Name="Transport" EntityType="Self.Transport" />
+    <EntitySet Name="User" EntityType="Self.User" />
+    <EntitySet Name="TransportAmount" EntityType="Self.TransportAmount" />
+    <AssociationSet Name="FK__Transport__Categ__29572725" Association="Self.FK__Transport__Categ__29572725">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Transport" EntitySet="Transport" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ListOrder__Order__31EC6D26" Association="Self.FK__ListOrder__Order__31EC6D26">
+      <End Role="Order" EntitySet="Order" />
+      <End Role="ListOrder" EntitySet="ListOrder" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ListOrder__Trans__30F848ED" Association="Self.FK__ListOrder__Trans__30F848ED">
+      <End Role="Transport" EntitySet="Transport" />
+      <End Role="ListOrder" EntitySet="ListOrder" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transport__Manuf__2A4B4B5E" Association="Self.FK__Transport__Manuf__2A4B4B5E">
+      <End Role="Manufacturer" EntitySet="Manufacturer" />
+      <End Role="Transport" EntitySet="Transport" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transport__Trans__2C3393D0" Association="Self.FK__Transport__Trans__2C3393D0">
+      <End Role="Transport" EntitySet="Transport" />
+      <End Role="TransportAmount" EntitySet="TransportAmount" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

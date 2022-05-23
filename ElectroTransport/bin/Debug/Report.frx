@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="05/03/2022 21:27:39" ReportInfo.Modified="05/03/2022 21:41:07" ReportInfo.CreatorVersion="2013.2.3.0">
+  <Dictionary>
+    <BusinessObjectDataSource Name="view" ReferenceName="view" DataType="System.Collections.Generic.List`1[[ElectroTransport.Buy+ReportFormView, ElectroTransport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" Enabled="true">
+      <Column Name="Id" DataType="System.String"/>
+      <Column Name="Name" DataType="System.String"/>
+      <Column Name="Count" DataType="System.Int32"/>
+      <Column Name="Price" DataType="System.Decimal"/>
+      <Column Name="TotalPrice" DataType="System.Decimal"/>
+    </BusinessObjectDataSource>
+    <Parameter Name="order" DataType="System.Int32"/>
+    <Total Name="Total" Expression="[view.TotalPrice]" Evaluator="Data1"/>
+  </Dictionary>
+  <ReportPage Name="Page1">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="47.25">
+      <TextObject Name="Text1" Left="302.4" Top="9.45" Width="151.2" Height="18.9" Text="Чек № [order]" Font="Arial, 14pt"/>
+      <TextObject Name="Text2" Left="453.6" Top="9.45" Width="198.45" Height="18.9" Text="[Date]" VertAlign="Center" Font="Arial, 14pt"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="51.25" Width="718.2" Height="37.8">
+      <TextObject Name="Text4" Left="75.6" Width="94.5" Height="37.8" Border.Lines="All" Text="Код товару" VertAlign="Center" Font="Arial, 11pt"/>
+      <TextObject Name="Text6" Left="170.1" Width="179.55" Height="37.8" Border.Lines="All" Text="Наіменування товару" VertAlign="Center" Font="Arial, 11pt"/>
+      <TextObject Name="Text8" Left="349.65" Width="94.5" Height="37.8" Border.Lines="All" Text="Кількість" VertAlign="Center" Font="Arial, 11pt"/>
+      <TextObject Name="Text10" Left="444.15" Width="94.5" Height="37.8" Border.Lines="All" Text="Вартість за шт, грн" VertAlign="Center" Font="Arial, 11pt"/>
+      <TextObject Name="Text12" Left="538.65" Width="103.95" Height="37.8" Border.Lines="All" Text="Повна ціна, грн" VertAlign="Center" Font="Arial, 11pt"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="93.05" Width="718.2" Height="37.8" DataSource="view">
+      <TextObject Name="Text3" Left="75.6" Width="94.5" Height="37.8" Border.Lines="All" Text="[view.Id]" VertAlign="Center" Font="Arial, 11pt"/>
+      <TextObject Name="Text5" Left="170.1" Width="179.55" Height="37.8" Border.Lines="All" Text="[view.Name]" Font="Arial, 11pt"/>
+      <TextObject Name="Text7" Left="349.65" Width="94.5" Height="37.8" Border.Lines="All" Text="[view.Count]" VertAlign="Center" Font="Arial, 11pt"/>
+      <TextObject Name="Text9" Left="444.15" Width="94.5" Height="37.8" Border.Lines="All" Text="[view.Price]" Format="Number" Format.UseLocale="true" VertAlign="Center" WordWrap="false" Font="Arial, 11pt" Trimming="EllipsisCharacter"/>
+      <TextObject Name="Text11" Left="538.65" Width="103.95" Height="37.8" Border.Lines="All" Text="[view.TotalPrice]" Format="Number" Format.UseLocale="true" VertAlign="Center" WordWrap="false" Font="Arial, 11pt" Trimming="EllipsisCharacter"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="134.85" Width="718.2" Height="66.15">
+      <TextObject Name="Text13" Left="75.6" Top="18.9" Width="302.4" Height="18.9" Text="До сплати: [Total] грн" Font="Arial, 14pt"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>

@@ -1,0 +1,112 @@
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\bin\Debug\DB.mdf
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\bin\Debug\DB_log.ldf
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\bin\Debug\ElectroTransport.exe.config
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\bin\Debug\ElectroTransport.exe
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\bin\Debug\ElectroTransport.pdb
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.csproj.AssemblyReference.cache
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Properties.Resources.resources
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.csproj.GenerateResource.cache
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.csproj.CoreCompileInputs.cache
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.exe
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.pdb
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\bin\Debug\EntityFramework.dll
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\bin\Debug\EntityFramework.xml
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Form1.resources
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.csproj.CopyComplete
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Form2.resources
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Add.resources
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.AddC.resources
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.AddM.resources
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Edit.resources
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\bin\Debug\FastReport.dll
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\bin\Debug\FastReport.Bars.dll
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\bin\Debug\FastReport.Editor.dll
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Buy.resources
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.UserForm.resources
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Menu.resources
+C:\Users\aprox\source\repos\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.TransportAdmissionForm.resources
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\bin\Debug\DB.mdf
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\bin\Debug\DB_log.ldf
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\bin\Debug\ElectroTransport.exe.config
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\bin\Debug\ElectroTransport.exe
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\bin\Debug\ElectroTransport.pdb
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\bin\Debug\EntityFramework.dll
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\bin\Debug\FastReport.Bars.dll
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\bin\Debug\FastReport.Editor.dll
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\bin\Debug\EntityFramework.xml
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.csproj.AssemblyReference.cache
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Add.resources
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.AddC.resources
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.AddM.resources
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Buy.resources
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Edit.resources
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Form1.resources
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Form2.resources
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Menu.resources
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Properties.Resources.resources
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.TransportAdmissionForm.resources
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.UserForm.resources
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.csproj.GenerateResource.cache
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.csproj.CoreCompileInputs.cache
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.exe
+C:\Users\Dasha\OneDrive\Рабочий стол\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.pdb
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\bin\Debug\DB.mdf
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\bin\Debug\DB_log.ldf
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\bin\Debug\ElectroTransport.exe.config
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\bin\Debug\ElectroTransport.exe
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\bin\Debug\ElectroTransport.pdb
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\bin\Debug\EntityFramework.dll
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\bin\Debug\FastReport.Bars.dll
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\bin\Debug\FastReport.Editor.dll
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\bin\Debug\EntityFramework.xml
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.csproj.AssemblyReference.cache
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Add.resources
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.AddC.resources
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.AddM.resources
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Buy.resources
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Edit.resources
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Form1.resources
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Form2.resources
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Menu.resources
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Properties.Resources.resources
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.TransportAdmissionForm.resources
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.UserForm.resources
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.csproj.GenerateResource.cache
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.csproj.CoreCompileInputs.cache
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.csproj.CopyComplete
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.exe
+C:\Users\oksana\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.pdb
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.csproj.AssemblyReference.cache
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Add.resources
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.AddC.resources
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.AddM.resources
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Buy.resources
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Edit.resources
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Form1.resources
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Form2.resources
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Menu.resources
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.Properties.Resources.resources
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.TransportAdmissionForm.resources
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.UserForm.resources
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.csproj.GenerateResource.cache
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.csproj.CoreCompileInputs.cache
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.exe
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.pdb
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\bin\Debug\DB.mdf
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\bin\Debug\DB_log.ldf
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\bin\Debug\ElectroTransport.exe.config
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\bin\Debug\ElectroTransport.exe
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\bin\Debug\ElectroTransport.pdb
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\bin\Debug\EntityFramework.dll
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\bin\Debug\FastReport.Bars.dll
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\bin\Debug\FastReport.Editor.dll
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\bin\Debug\EntityFramework.xml
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\aprox\Desktop\ElectroTransport\ElectroTransport\obj\Debug\ElectroTransport.csproj.CopyComplete
